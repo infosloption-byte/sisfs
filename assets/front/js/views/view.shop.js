@@ -1,0 +1,1 @@
+(function(t){"use strict";t(".quantity .plus").on("click",function(){var n=t(this).parents(".quantity").find(".qty"),i=parseInt(n.val());isNaN(i)||n.val(i+1)}),t(".quantity .minus").on("click",function(){var n=t(this).parents(".quantity").find(".qty"),i=parseInt(n.val());!isNaN(i)&&i>1&&n.val(i-1)})}).apply(this,[jQuery]);
