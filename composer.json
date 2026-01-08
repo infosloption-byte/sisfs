@@ -39,7 +39,11 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "System\\": "app/packages/system/"
+            "System\\": "app/packages/system/",
+            "System\\UserRoles\\": "app/packages/system/user-roles/src/",
+            "System\\Permissions\\": "app/packages/system/Permission/src/",
+            "System\\Employee\\": "app/packages/system/employee-manage/src/",
+            "System\\Department\\": "app/packages/system/department-manage/src/"
         }
     },
     "autoload-dev": {
