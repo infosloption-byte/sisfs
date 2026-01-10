@@ -49,6 +49,7 @@
                             <div class="body">
                                 <form class="form-auth-small" method="POST">
                                     {{ csrf_field() }}
+                                    <span>username: captain | password: password</span>
                                     <div class="form-group">
                                         <label for="signin-username" class="control-label sr-only">Username</label>
                                         <input type="username" name="username" class="form-control" id="signin-username" value="" placeholder="Username">
